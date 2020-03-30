@@ -1,0 +1,13 @@
+.bordered {
+    border: 1px solid silver;
+    padding: 5px;
+    margin-right: 20px;
+    padding-bottom: 25px;
+    width: 180px;
+    min-height: 280px;
+}
+.bordered h3 {
+    background: #eee;
+    padding-left: 10px;
+    margin-left: -5px;
+}

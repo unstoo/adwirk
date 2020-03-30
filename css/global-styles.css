@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Gilroy;
+    src: url('/fonts/Gilroy-Light.woff');
+    font-weight: 200;
+}
+@font-face {
+    font-family: Gilroy;
+    src: url('/fonts/Gilroy-SemiBold.woff');
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    width: 100%; */
+}
+
+body * {
+    box-sizing: border-box;
+    font-family: Gilroy, sans-serif;
+}
+
+div, span, button, input, textarea {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#__next {
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    background: white;
+    border: 1px solid;
+    padding: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+}
